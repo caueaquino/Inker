@@ -1,0 +1,32 @@
+/* CSS Document */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+h2, input, button {
+    margin-bottom: 7px;
+    color: rgb(71, 71, 71);
+}
+
+h2 {
+    width: 90%;
+    text-align: left;
+    font-size: 20pt;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input, button {
+    width: 90%;
+    font-size: 12pt;
+    transition: all 0.2s;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+}

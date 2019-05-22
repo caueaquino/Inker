@@ -1,2 +1,35 @@
 /* CSS Document */
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+}
+
+body, app-root, app-outside-system, app-inside-system {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+
+app-outside-system, app-inside-system, app-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+app-outside-system {
+    background-color: aliceblue;
+}
+
+app-outside-system, app-login {
+    justify-content: center;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
